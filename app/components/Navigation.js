@@ -11,7 +11,9 @@ export default async function Navigation() {
     <div className="fixed bottom-0 left-0 right-0 bg-blue-700 flex justify-between items-center p-4 mx-4 mb-3 sm:mx-8 md:mx-24 lg:mx-36 xl:mx-72 rounded-3xl">
       {/* Menu items */}
       <div className="flex space-x-6 mx-6">
-        <Link className="text-white" href="/">Home</Link>
+        <Link className="text-white" href="/">
+          Home
+        </Link>
       </div>
 
       {/* Centered Icon */}
